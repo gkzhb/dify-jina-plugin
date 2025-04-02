@@ -1,4 +1,7 @@
 GUIDE.md
+uv.lock
+pyproject.toml
+.python-version
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
