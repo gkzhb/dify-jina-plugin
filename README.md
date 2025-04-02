@@ -6,5 +6,5 @@
 
 ### Description
 
-
+Based on dify official jina plugin, but use self-hosted jina reader server.
 
