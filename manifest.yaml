@@ -1,0 +1,33 @@
+version: 0.0.1
+type: plugin
+author: gkzhb
+name: local-jina-reader
+label:
+  en_US: local-jina-reader
+  ja_JP: local-jina-reader
+  zh_Hans: local-jina-reader
+  pt_BR: local-jina-reader
+description:
+  en_US: Fetch url with self-hosted jina reader instance
+  ja_JP: Fetch url with self-hosted jina reader instance
+  zh_Hans: Fetch url with self-hosted jina reader instance
+  pt_BR: Fetch url with self-hosted jina reader instance
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission: {}
+plugins:
+  tools:
+    - provider/local-jina-reader.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-04-02T23:46:12.958304+08:00
+privacy: PRIVACY.md
+verified: false

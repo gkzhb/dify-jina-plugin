@@ -1,0 +1,30 @@
+identity:
+  name: local-jina-reader
+  author: gkzhb
+  label:
+    en_US: local-jina-reader
+    zh_Hans: local-jina-reader
+    pt_BR: local-jina-reader
+description:
+  human:
+    en_US: Fetch url with self-hosted jina reader instance
+    zh_Hans: Fetch url with self-hosted jina reader instance
+    pt_BR: Fetch url with self-hosted jina reader instance
+  llm: Fetch url with self-hosted jina reader instance
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: Fetch url with self-hosted jina reader instance
+      zh_Hans: Fetch url with self-hosted jina reader instance
+      pt_BR: Fetch url with self-hosted jina reader instance
+    llm_description: Fetch url with self-hosted jina reader instance
+    form: llm
+extra:
+  python:
+    source: tools/local-jina-reader.py

@@ -1,0 +1,17 @@
+identity:
+  author: gkzhb
+  name: local-jina-reader
+  label:
+    en_US: local-jina-reader
+    zh_Hans: local-jina-reader
+    pt_BR: local-jina-reader
+  description:
+    en_US: Fetch url with self-hosted jina reader instance
+    zh_Hans: Fetch url with self-hosted jina reader instance
+    pt_BR: Fetch url with self-hosted jina reader instance
+  icon: icon.svg
+tools:
+  - tools/local-jina-reader.yaml
+extra:
+  python:
+    source: provider/local-jina-reader.py
